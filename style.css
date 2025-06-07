@@ -1,0 +1,95 @@
+/* CSS: style.css */
+
+/* === BASE === */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* === HEADER === */
+.header {
+    background-color: #4B7BFF;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    padding: 60px 0;
+}
+
+/* === MAIN CONTAINER === */
+.main {
+    max-width: 900px;
+    margin: 25px auto 0;
+    padding: 20px;
+    text-align: left;
+}
+
+/* === QUESTIONS === */
+.question-block {
+    margin-bottom: 40px;
+}
+
+.question {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.feedback {
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+/* === BUTTONS === */
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 20px;
+    justify-content: flex-start;
+}
+
+.btn {
+    background-color: #e3f2fd;
+    color: black;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #bbdefb;
+}
+
+.correct-style {
+    background-color: green !important;
+    color: white !important;
+}
+
+.incorrect-style {
+    background-color: red !important;
+    color: white !important;
+}
+
+/* === FREE RESPONSE SECTION === */
+.section {
+    margin-top: 50px;
+}
+
+.answer {
+    padding: 8px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.check {
+    margin-left: 10px;
+}
