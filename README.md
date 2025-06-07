@@ -1,0 +1,2 @@
+# mi-trivia
+CS50
